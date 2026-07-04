@@ -1,0 +1,37 @@
+name: Daily Higashikawa Tracker
+
+on:
+  schedule:
+    - cron: "20 4 * * *"   # 13:20 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Run tracker (phase 1 dryrun until Notion configured)
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python tracker.py dryrun
+      - name: Commit snapshots
+        run: |
+          git config user.name "higashikawa-tracker[bot]"
+          git config user.email "higashikawa-tracker@users.noreply.github.com"
+          git add snapshots/
+          if git diff --staged --quiet; then
+            echo "no snapshot changes"
+          else
+            git commit -m "snapshot $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+            git push
+          fi
