@@ -76,6 +76,17 @@ def _pct(v):
     return None if v is None else round(v / 100.0, 4)
 
 
+def _archive_day(db, today, h):
+    """Archive any existing rows for `today` so re-runs overwrite, not stack."""
+    r = requests.post(f"{API}/databases/{db}/query", headers=h, json={
+        "filter": {"property": "紀錄日期", "date": {"equals": today}}}, timeout=30)
+    if not r.ok:
+        return
+    for pg in r.json().get("results", []):
+        requests.patch(f"{API}/pages/{pg['id']}", headers=h,
+                       json={"archived": True}, timeout=30)
+
+
 def write_notion(today, rows, snap):
     token = os.environ.get("NOTION_TOKEN")
     parent = os.environ.get("NOTION_PARENT_PAGE_ID")
@@ -84,6 +95,7 @@ def write_notion(today, rows, snap):
         return
     h = _headers(token)
     db = _find_child_db(parent, DAILY_DB_TITLE, h) or _create_daily_db(parent, h)
+    _archive_day(db, today, h)
     n = 0
     for row in rows:
         occ = row["occ"]
