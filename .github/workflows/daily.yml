@@ -20,10 +20,11 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
-      - name: Run tracker (phase 1 dryrun until Notion configured)
+      - name: Run tracker (writes to Notion when secrets are set, else skips)
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: python tracker.py dryrun
+          NOTION_PARENT_PAGE_ID: ${{ secrets.NOTION_PARENT_PAGE_ID }}
+        run: python tracker.py
       - name: Commit snapshots
         run: |
           git config user.name "higashikawa-tracker[bot]"

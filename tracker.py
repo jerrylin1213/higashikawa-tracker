@@ -74,8 +74,11 @@ def main(dry=False):
     print(f"\nsnapshot -> {d}/  ({len(rows)} building-rows)")
 
     if not dry:
-        from notion_sync import write_notion  # phase 2
-        write_notion(today, rows, snap)
+        try:
+            from notion_sync import write_notion  # phase 2
+            write_notion(today, rows, snap)
+        except Exception as e:  # noqa: BLE001
+            print(f"  Notion: error {e}")
 
 
 if __name__ == "__main__":
