@@ -75,11 +75,11 @@
   "label": "andon 行灯",
   "building": "andon",
   "source": "jalan",
-  "nights": 84,
+  "nights": 112,
   "occ": {
-   "7": null,
-   "30": null,
-   "60": 50,
+   "7": 86,
+   "30": 48,
+   "60": 49,
    "90": 49
   }
  }
