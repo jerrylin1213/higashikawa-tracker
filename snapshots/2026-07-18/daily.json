@@ -1,0 +1,142 @@
+[
+ {
+  "name": "The Peak Villa Suite / Peak Villa Suite",
+  "label": "The Peak Villa Suite",
+  "building": "Peak Villa Suite",
+  "source": "airbnb",
+  "source_status": "OK",
+  "booking_status": "OK",
+  "ref_price": 13800,
+  "fail_detail": "",
+  "occ": {
+   "7": 57,
+   "30": 47,
+   "60": 73,
+   "90": 63
+  },
+  "booked_60": 44,
+  "new_book": 5,
+  "cancel": 0,
+  "est_rev_60": 607200
+ },
+ {
+  "name": "クレインハウス Crane / Crane House",
+  "label": "クレインハウス Crane",
+  "building": "Crane House",
+  "source": "airbnb",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 71,
+   "30": 63,
+   "60": 43,
+   "90": 34
+  },
+  "booked_60": 26,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "Villa ニセウコロコロ / ペロ",
+  "label": "Villa ニセウコロコロ",
+  "building": "ペロ",
+  "source": "niseu",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 67,
+   "30": 38,
+   "60": 37,
+   "90": 26
+  },
+  "booked_60": 22,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "Villa ニセウコロコロ / チカプ",
+  "label": "Villa ニセウコロコロ",
+  "building": "チカプ",
+  "source": "niseu",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 33,
+   "30": 52,
+   "60": 32,
+   "90": 28
+  },
+  "booked_60": 19,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "Villa ニセウコロコロ / トゥンニ",
+  "label": "Villa ニセウコロコロ",
+  "building": "トゥンニ",
+  "source": "niseu",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 17,
+   "30": 52,
+   "60": 36,
+   "90": 26
+  },
+  "booked_60": 21,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "東川ペリカン Pelican / Pelican",
+  "label": "東川ペリカン Pelican",
+  "building": "Pelican",
+  "source": "jalan",
+  "source_status": "OK",
+  "booking_status": "OK",
+  "ref_price": 51545,
+  "fail_detail": "",
+  "occ": {
+   "7": 86,
+   "30": 85,
+   "60": 85,
+   "90": 85
+  },
+  "booked_60": 23,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": 1185535
+ },
+ {
+  "name": "andon 行灯 / andon",
+  "label": "andon 行灯",
+  "building": "andon",
+  "source": "jalan",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": null,
+   "30": null,
+   "60": 50,
+   "90": 52
+  },
+  "booked_60": 7,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ }
+]
