@@ -11,13 +11,13 @@
   "occ": {
    "7": 100,
    "30": 80,
-   "60": 68,
+   "60": 67,
    "90": 72
   },
-  "booked_60": 41,
+  "booked_60": 40,
   "new_book": 0,
   "cancel": 0,
-  "est_rev_60": 565800
+  "est_rev_60": 552000
  },
  {
   "name": "クレインハウス Crane / Crane House",
@@ -30,11 +30,11 @@
   "fail_detail": "",
   "occ": {
    "7": 29,
-   "30": 60,
-   "60": 35,
-   "90": 23
+   "30": 57,
+   "60": 33,
+   "90": 22
   },
-  "booked_60": 21,
+  "booked_60": 20,
   "new_book": 0,
   "cancel": 0,
   "est_rev_60": null
@@ -50,8 +50,8 @@
   "fail_detail": "",
   "occ": {
    "7": 0,
-   "30": 29,
-   "60": 16,
+   "30": 28,
+   "60": 15,
    "90": 10
   },
   "booked_60": 9,
@@ -70,9 +70,9 @@
   "fail_detail": "",
   "occ": {
    "7": 0,
-   "30": 29,
-   "60": 21,
-   "90": 14
+   "30": 28,
+   "60": 20,
+   "90": 13
   },
   "booked_60": 12,
   "new_book": 0,
@@ -89,9 +89,9 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 0,
+   "7": 17,
    "30": 14,
-   "60": 9,
+   "60": 8,
    "90": 6
   },
   "booked_60": 5,
@@ -105,19 +105,19 @@
   "building": "Pelican",
   "source": "jalan",
   "source_status": "OK",
-  "booking_status": "OK",
-  "ref_price": 48273,
-  "fail_detail": "",
+  "booking_status": "失敗",
+  "ref_price": null,
+  "fail_detail": "Booking: no available night to quote",
   "occ": {
-   "7": 33,
-   "30": 33,
-   "60": 50,
-   "90": 50
+   "7": null,
+   "30": null,
+   "60": 100,
+   "90": 80
   },
-  "booked_60": 3,
-  "new_book": 3,
+  "booked_60": 2,
+  "new_book": 6,
   "cancel": 0,
-  "est_rev_60": 144819
+  "est_rev_60": null
  },
  {
   "name": "andon 行灯 / andon",
@@ -129,13 +129,13 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 67,
-   "30": 67,
-   "60": 83,
-   "90": 80
+   "7": 100,
+   "30": 100,
+   "60": 100,
+   "90": 100
   },
-  "booked_60": 5,
-  "new_book": 3,
+  "booked_60": 4,
+  "new_book": 6,
   "cancel": 0,
   "est_rev_60": null
  }
