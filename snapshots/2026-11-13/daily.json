@@ -1,0 +1,142 @@
+[
+ {
+  "name": "The Peak Villa Suite / Peak Villa Suite",
+  "label": "The Peak Villa Suite",
+  "building": "Peak Villa Suite",
+  "source": "airbnb",
+  "source_status": "OK",
+  "booking_status": "失敗",
+  "ref_price": null,
+  "fail_detail": "Booking: Error: Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+  "occ": {
+   "7": 14,
+   "30": 43,
+   "60": 35,
+   "90": 32
+  },
+  "booked_60": 21,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "クレインハウス Crane / Crane House",
+  "label": "クレインハウス Crane",
+  "building": "Crane House",
+  "source": "airbnb",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 0,
+   "30": 0,
+   "60": 20,
+   "90": 28
+  },
+  "booked_60": 12,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "Villa ニセウコロコロ / ペロ",
+  "label": "Villa ニセウコロコロ",
+  "building": "ペロ",
+  "source": "niseu",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 83,
+   "30": 38,
+   "60": 34,
+   "90": 24
+  },
+  "booked_60": 20,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "Villa ニセウコロコロ / チカプ",
+  "label": "Villa ニセウコロコロ",
+  "building": "チカプ",
+  "source": "niseu",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 83,
+   "30": 41,
+   "60": 41,
+   "90": 34
+  },
+  "booked_60": 24,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "Villa ニセウコロコロ / トゥンニ",
+  "label": "Villa ニセウコロコロ",
+  "building": "トゥンニ",
+  "source": "niseu",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 100,
+   "30": 48,
+   "60": 49,
+   "90": 39
+  },
+  "booked_60": 29,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "東川ペリカン Pelican / Pelican",
+  "label": "東川ペリカン Pelican",
+  "building": "Pelican",
+  "source": "jalan",
+  "source_status": "OK",
+  "booking_status": "失敗",
+  "ref_price": null,
+  "fail_detail": "Booking: Error: Page.goto: Navigation to \"https://www.booking.com/hotel/jp/dong-chuan-perikan.html?checkin=2026-11-15&checkout=2026-11-17&group_adults=2&selected_currency=JPY&lang=en-us\" is interrupted by another navigation to \"https://www.booking.com/hotel/jp/the-peak-villa-suite-hokkaido.html?checkin=2026-11-15&checkout=2026-11-17&group_adults=2&selected_currency=JPY&lang=en-us&chal_t=1794572588916&force_referer=\"\nCall log:\n  - navigating to \"https://www.booking.com/hotel/jp/dong-chuan-perikan.html?checkin=2026-11-15&checkout=2026-11-17&group_adults=2&selected_currency=JPY&lang=en-us\", waiting until \"domcontentloaded\"\n",
+  "occ": {
+   "7": 14,
+   "30": 33,
+   "60": 31,
+   "90": 32
+  },
+  "booked_60": 11,
+  "new_book": 4,
+  "cancel": 0,
+  "est_rev_60": null
+ },
+ {
+  "name": "andon 行灯 / andon",
+  "label": "andon 行灯",
+  "building": "andon",
+  "source": "jalan",
+  "source_status": "OK",
+  "booking_status": "無",
+  "ref_price": null,
+  "fail_detail": "",
+  "occ": {
+   "7": 29,
+   "30": 28,
+   "60": 26,
+   "90": 26
+  },
+  "booked_60": 9,
+  "new_book": 0,
+  "cancel": 0,
+  "est_rev_60": null
+ }
+]
