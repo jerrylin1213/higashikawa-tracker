@@ -5,19 +5,19 @@
   "building": "Peak Villa Suite",
   "source": "airbnb",
   "source_status": "OK",
-  "booking_status": "失敗",
-  "ref_price": null,
-  "fail_detail": "Booking: Error: Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+  "booking_status": "OK",
+  "ref_price": 13800,
+  "fail_detail": "",
   "occ": {
    "7": 100,
-   "30": 60,
-   "60": 43,
-   "90": 32
+   "30": 57,
+   "60": 42,
+   "90": 31
   },
-  "booked_60": 26,
+  "booked_60": 25,
   "new_book": 0,
   "cancel": 0,
-  "est_rev_60": null
+  "est_rev_60": 345000
  },
  {
   "name": "クレインハウス Crane / Crane House",
@@ -29,13 +29,13 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 43,
-   "30": 40,
-   "60": 35,
-   "90": 38
+   "7": 57,
+   "30": 50,
+   "60": 43,
+   "90": 42
   },
-  "booked_60": 21,
-  "new_book": 1,
+  "booked_60": 26,
+  "new_book": 5,
   "cancel": 0,
   "est_rev_60": null
  },
@@ -49,7 +49,7 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 100,
+   "7": 83,
    "30": 21,
    "60": 29,
    "90": 19
@@ -69,10 +69,10 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 100,
-   "30": 18,
-   "60": 52,
-   "90": 40
+   "7": 83,
+   "30": 17,
+   "60": 51,
+   "90": 39
   },
   "booked_60": 30,
   "new_book": 0,
@@ -89,9 +89,9 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 100,
-   "30": 18,
-   "60": 47,
+   "7": 83,
+   "30": 21,
+   "60": 46,
    "90": 33
   },
   "booked_60": 27,
@@ -109,15 +109,15 @@
   "ref_price": 53273,
   "fail_detail": "",
   "occ": {
-   "7": 33,
-   "30": 33,
-   "60": 33,
-   "90": 38
+   "7": 40,
+   "30": 50,
+   "60": 45,
+   "90": 47
   },
-  "booked_60": 2,
-  "new_book": 0,
+  "booked_60": 5,
+  "new_book": 4,
   "cancel": 0,
-  "est_rev_60": 106546
+  "est_rev_60": 266365
  },
  {
   "name": "andon 行灯 / andon",
@@ -129,13 +129,13 @@
   "ref_price": null,
   "fail_detail": "",
   "occ": {
-   "7": 33,
-   "30": 43,
-   "60": 38,
-   "90": 40
+   "7": null,
+   "30": 100,
+   "60": 50,
+   "90": 50
   },
-  "booked_60": 5,
-  "new_book": 4,
+  "booked_60": 3,
+  "new_book": 6,
   "cancel": 0,
   "est_rev_60": null
  }
